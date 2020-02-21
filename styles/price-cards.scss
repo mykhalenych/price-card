@@ -1,0 +1,144 @@
+.card {
+    background-color: #334247;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.0)8;
+    width: 380px;
+    height: 770px;
+    margin: 15px;
+}
+
+.price-card {
+    &__title {
+        margin: 30px 139.86px 36px 140px;
+        &-basic {
+            font-weight: bold;
+            font-size: 35px;
+            line-height: 43px;
+            text-align: center;
+            color: white;
+            margin: 0;
+        }
+        &__subtitle {
+            display: block;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            color: #FFFFFF
+        }
+    }
+    &__title__two {
+        margin: 30px 108.25px 36px 108px;
+        &-business {
+            font-weight: bold;
+            font-size: 35px;
+            line-height: 43px;
+            text-align: center;
+            color: white;
+            margin: 0;
+        }
+        &__subtitle {
+            display: block;
+            margin: auto;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            color: #FFFFFF
+        }
+    }
+    &__title__three {
+        margin: 32px 102px 36px 102px;
+        &-webshop {
+            font-weight: bold;
+            font-size: 35px;
+            line-height: 43px;
+            text-align: center;
+            color: white;
+            margin: 0;
+        }
+        &__subtitle {
+            display: block;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
+    &__price {
+        width: 100%;
+        height: 104px;
+        padding: 18px 110px 19px 110px;
+        background-color: #5BB189;
+        color: white;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 67px;
+        text-align: center;
+    }
+    &-two__price {
+        background-color: #3A6BA5;
+    }
+    &-three__price {
+        background-color: #EC632A;
+    }
+    &__description {
+        margin: 0;
+        padding: 39px 26px 42px 26px;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__options-list {
+        padding: 0;
+        margin: 0;
+        &__row {
+            width: 100%;
+            height: 50px;
+            margin: 0;
+            padding: 16px 21.38px 16px 22.25px;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 18px;
+            display: flex;
+            justify-content: left;
+            ;
+            color: #FFFFFF;
+            &-icon {
+                background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+                padding: 19px 21.41px 18px 22.25px;
+                background-repeat: no-repeat;
+            }
+            &-icon-two {
+                background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+                padding: 19px 21.41px 18px 22.25px;
+                background-repeat: no-repeat;
+            }
+            &-icon-three {
+                background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+                padding: 19px 21.41px 18px 22.25px;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+    &__order-btn {
+        width: 154.63px;
+        height: 40px;
+        background-color: #5BB189;
+        border-radius: 20px;
+        margin: 37px 113.37px 42px 112px;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &-btn-three {
+        background-color: #EC632A;
+    }
+    .black {
+        background-color: #2A3438;
+    }
+}
